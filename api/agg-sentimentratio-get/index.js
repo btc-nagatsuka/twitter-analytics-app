@@ -1,4 +1,5 @@
 //https://learn.microsoft.com/azure/developer/javascript/how-to/with-database/use-sql-api-as-cosmos-db
+
 module.exports = async function (context, req) {
     const { CosmosClient } = require("@azure/cosmos");
     const cosmosendpoint = process.env.COSMOSDB_CONNECTIONSTRING;
